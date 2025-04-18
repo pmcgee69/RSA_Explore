@@ -6,7 +6,7 @@ https://www.meetup.com/programming-languages-toronto-meetup/
 This is an exploratory implementation of RSA encryption & decryption
 in Delphi (object pascal).
 
-![screenshot](A_Stepanov_RSA.png)
+![screenshot](A_Stepanov_RSA%20.png)
 
 
 ![screenshot](screenshot%20small.png)
