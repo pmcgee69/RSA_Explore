@@ -6,6 +6,5 @@ This is an exploratory implementation of RSA encryption & decryption
 
 in Delphi (object pascal).
 
-https://github.com/pmcgee69/RSA_Explore/blob/main/screenshot%20small.png
 
 ![screenshot](screenshot%20small.png)
