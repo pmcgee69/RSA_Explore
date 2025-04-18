@@ -127,7 +127,7 @@
             <Form>Form1</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="U_RSA.pas"/>
+        <DCCReference Include="U_RSA_Fns.pas"/>
         <DCCReference Include="U_BigInt_Calc.pas"/>
         <DCCReference Include="U_RSA_Gen_Keys.pas"/>
         <BuildConfiguration Include="Base">

@@ -29,14 +29,14 @@ function Get_Keys : string;
 begin
 //   t   := TStopwatch.Create;
    t.Start;
-   p1  := RandomProbablePrime(bits,prec);                    //20
-   p2  := RandomProbablePrime(bits,prec);                    //30
+   p1  := RandomProbablePrime(bits,prec);
+   p2  := RandomProbablePrime(bits,prec);
 
    n   := p1 * p2;
    phi := (p1-1) * (p2 -1);
-
+                                                              // e = 3, 17, 65537
    repeat
-      pub := RandomProbablePrime(bits,prec);                 //30
+      pub := RandomProbablePrime(bits,prec);
    until ( gcd_BigInt(pub, phi) = 1);
 
    result := 'phi ' + crlf + phi.ToString + crlf +
